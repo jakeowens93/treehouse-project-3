@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+    <h1>The Code Review</h1>
+    <h2>Signup for our newsletter</h2>
+    <p>Get the latest news on how your code is doing right in your inbox</p>
+      <form action="post">
+        <fieldset>
+          <legend>Contact Information</legend>
+          <ul>
+        <li>
+        <label for="name">Full Name</label><br>
+        <input type="text" id="name" name="user_name" placeholder="Your Name" required>
+        </li>
+        <label for="email">Email Address</label><br>
+        <input type="email" id="email" name="user_email" placeholder="email@address.com" required><br>
+        <label for="phone">Phone Number</label><br>
+        <input type="telephone" id="phone" name="user_phone"><br>
+        <label for="address">Street Address</label><br>
+        <input type="text" id="address" name="user_address"><br>
+        <label for="city">City</label><br>
+        <input type="text" id="city" name="user_city"><br>
+        <label for="state">State</label><br>
+        <select id="state" name="user_state">
+        <label for="zip">Zip Code</label>
+        <input type="text" id="zip" name="user_zip"></li>
+      </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Newsletter</legend>
+          <p>Select the newsletters you would like to receive</p>
+          <input type="checkbox" id="htmlnews" name="subscription">
+          <label for="htmlnews"> HTML News </label>
+          <input type="checkbox" id="cssnews" name="subscription">
+          <label for="cssnews"> CSS News </label>
+          <input type="checkbox" id="javascript" name="subscription">
+          <label for="javascript"> Javascript News </label>
+          <p>Newsletter format</p>
+          <input type="radio" id="htmlformat" name="format">
+          <label for="htmlformat">HTML</label>
+          <input type="radio" id="plaintext" name="format">
+          <label for="plaintext">Plain text</label><br><br>
+          <label for="othertopics">Other topics you'd like to hear about</label><br>
+          <textarea id="othertopics" name="other" rows="4"></textarea>
+        </fieldset>
+        <input type="submit" value="Sign Up" class="btn">
+      </form>
+      <div>
+    </body>
+    </html>
