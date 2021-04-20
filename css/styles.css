@@ -1,8 +1,27 @@
 
+*{
+  font-family: 'Merriweather', serif;
+}
+html{
+  font-size: 16px;
+  color: #252422;
+}
+body{
+  background:#403D39;
+}
+.header{
+  background:#403D39;
+  color: #FFFCF2;
+  text-align: center;
+  padding:15px 10px;
+  margin:-8px -10px 0 -8px;
+}
 .container{
   text-align: center;
-  width: 70vw;
+  width: 95vw;
   margin: auto;
+  background-color:#CCC5B9;
+  border-radius: 10px;
 }
 ul{
   list-style: none;
@@ -10,13 +29,18 @@ ul{
 }
 .btn{
   padding:20px 50px;
-  background-color: #4BB791;
-  color: white;
+  background-color: #EB5E28;
+  color: #FFFCF2;
+  border: none;
   border-radius: 5px;
+  font-size: 1.5rem;
+}
+.btn:hover{
+  font-weight:bold;
 }
 fieldset{
   border:none;
 }
 legend{
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }

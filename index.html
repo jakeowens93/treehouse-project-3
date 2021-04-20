@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <head>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div class="header">
+  <h1>THE CODE REVIEW</h1>
+</div>
     <div class="container">
-    <h1>The Code Review</h1>
     <h2>Signup for our newsletter</h2>
     <p>Get the latest news on how your code is doing right in your inbox</p>
       <form action="post">
@@ -13,20 +17,84 @@
           <ul>
         <li>
         <label for="name">Full Name</label><br>
-        <input type="text" id="name" name="user_name" placeholder="Your Name" required>
+        <input type="text" id="name" name="user_name" placeholder="Required" required>
         </li>
+        <li>
         <label for="email">Email Address</label><br>
-        <input type="email" id="email" name="user_email" placeholder="email@address.com" required><br>
+        <input type="email" id="email" name="user_email" placeholder="Required" required><br>
+      </li>
+      <li>
         <label for="phone">Phone Number</label><br>
         <input type="telephone" id="phone" name="user_phone"><br>
+      </li>
+      <li>
         <label for="address">Street Address</label><br>
         <input type="text" id="address" name="user_address"><br>
+      </li>
+      <li>
         <label for="city">City</label><br>
         <input type="text" id="city" name="user_city"><br>
+      </li>
+      <li>
         <label for="state">State</label><br>
         <select id="state" name="user_state">
-        <label for="zip">Zip Code</label>
-        <input type="text" id="zip" name="user_zip"></li>
+          <option value="alabama">Alabama</option>
+          <option value="Alaska">Alaska</option>
+          <option value="Arizona">Arizona</option>
+          <option value="Arkansas">Arkansas</option>
+          <option value="California">California</option>
+          <option value="Colorado">Colorado</option>
+          <option value="Connecticut">Connecticut</option>
+          <option value="Delaware">Delaware</option>
+          <option value="District of Columbia">District of Columbia</option>
+          <option value="Florida">Florida</option>
+          <option value="Georgia">Georgia</option>
+          <option value="Hawaii">Hawaii</option>
+          <option value="Idaho">Idaho</option>
+          <option value="Illinois">Illinois</option>
+          <option value="Indiana">Indiana</option>
+          <option value="Iowa">Iowa</option>
+          <option value="Kansas">Kansas</option>
+          <option value="Kentucky">Kentucky</option>
+          <option value="Louisiana">Louisiana</option>
+          <option value="Maine">Maine</option>
+          <option value="Maryland">Maryland</option>
+          <option value="Massachusetts">Massachusetts</option>
+          <option value="Michigan">Michigan</option>
+          <option value="Minnesota">Minnesota</option>
+          <option value="Mississippi">Mississippi</option>
+          <option value="Missouri">Missouri</option>
+          <option value="Montana">Montana</option>
+          <option value="Nebraska">Nebraska</option>
+          <option value="Nevada">Nevada</option>
+          <option value="New Hampshire">New Hampshire</option>
+          <option value="New Jersey">New Jersey</option>
+          <option value="New Mexico">New Mexico</option>
+          <option value="New York">New York</option>
+          <option value="North Carolina">North Carolina</option>
+          <option value="North Dakota">North Dakota</option>
+          <option value="Ohio">Ohio</option>
+          <option value="Oklahoma">Oklahoma</option>
+          <option value="Oregon">Oregon</option>
+          <option value="Pennsylvania">Pennsylvania</option>
+          <option value="Puerto Rico">Puerto Rico</option>
+          <option value="Rhode Island">Rhode Island</option>
+          <option value="South Carolina">South Carolina</option>
+          <option value="South Dakota">South Dakota</option>
+          <option value="Tennessee">Tennessee</option>
+          <option value="Texas">Texas</option>
+          <option value="Utah">Utah</option>
+          <option value="Vermont">Vermont</option>
+          <option value="Virginia">Virginia</option>
+          <option value="Washington">Washington</option>
+          <option value="West Virginia">West Virginia</option>
+          <option value="Wisconsin">Wisconsin</option>
+          <option value="Wyoming">Wyoming</option></select>
+        </li>
+        <li>
+        <label for="zip">Zip Code</label><br>
+        <input type="text" id="zip" name="user_zip">
+      </li>
       </ul>
         </fieldset>
         <fieldset>
