@@ -3,17 +3,21 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <div class="header">
   <h1>THE CODE REVIEW</h1>
 </div>
     <div class="container">
+      <div class="signup">
     <h2>Signup for our newsletter</h2>
     <p>Get the latest news on how your code is doing right in your inbox</p>
+  </div>
       <form action="post">
         <fieldset>
-          <legend>Contact Information</legend>
+          <div class="contact">
+        <legend>Contact Information</legend>
           <ul>
         <li>
         <label for="name">Full Name</label><br>
@@ -96,21 +100,30 @@
         <input type="text" id="zip" name="user_zip">
       </li>
       </ul>
+    </div>
         </fieldset>
         <fieldset>
           <legend>Newsletter</legend>
           <p>Select the newsletters you would like to receive</p>
+          <ul>
+            <li>
           <input type="checkbox" id="htmlnews" name="subscription">
-          <label for="htmlnews"> HTML News </label>
+          <label for="htmlnews"> HTML News </label></li>
+          <li>
           <input type="checkbox" id="cssnews" name="subscription">
-          <label for="cssnews"> CSS News </label>
+          <label for="cssnews"> CSS News </label></li>
+          <li>
           <input type="checkbox" id="javascript" name="subscription">
-          <label for="javascript"> Javascript News </label>
+          <label for="javascript"> Javascript News </label></li><br>
+        </ul>
           <p>Newsletter format</p>
+          <ul>
+            <li>
           <input type="radio" id="htmlformat" name="format">
-          <label for="htmlformat">HTML</label>
+          <label for="htmlformat">HTML</label></li>
+          <li>
           <input type="radio" id="plaintext" name="format">
-          <label for="plaintext">Plain text</label><br><br>
+          <label for="plaintext">Plain text</label></li><br><br>
           <label for="othertopics">Other topics you'd like to hear about</label><br>
           <textarea id="othertopics" name="other" rows="4"></textarea>
         </fieldset>
