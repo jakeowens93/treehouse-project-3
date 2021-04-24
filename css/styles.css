@@ -5,6 +5,7 @@
 }
 html{
   color: #3d405b;
+  box-sizing: border-box;
 }
 body{
   background:#3d405b;
@@ -26,6 +27,7 @@ p {
   margin: 0 -10px -10px;
   display: flex;
   flex-direction: column;
+  width:100%;
 }
 label{
   padding: 10px 0;
@@ -35,7 +37,7 @@ label{
   padding:10px;
   margin: 0 5px;
   text-align: center;
-  border-bottom: solid 3px black;
+  border-bottom: solid 3px #3d405b;
 }
 .contact input, textarea, select {
   width: 100%;
@@ -45,19 +47,16 @@ label{
   box-sizing: border-box;
   resize: vertical;
 }
-
-.contact li{
-  margin: 10px;
-}
 .newsletter{
   padding: 12px;
 }
 .newsletter ul{
     line-height: 200%;
-}
-ul{
   list-style-type: none;
   padding-left: 0;
+}
+#othertopics{
+  width:100%;
 }
 .btn-wrapper{
   display:flex;
@@ -66,7 +65,7 @@ ul{
   padding-bottom: 30px;
 }
 .btn{
-  width: 90vw;
+  width: 90%;
   padding:20px 50px;
   background-color: #e07a5f;
   color: #f4f1de;
@@ -78,9 +77,6 @@ ul{
 .btn:hover{
   font-weight:bold;
 }
-.copyright{
-  font-style:italic;
-}
 fieldset{
   border:none;
   box-sizing: border-box;
@@ -89,7 +85,7 @@ legend{
   font-size: 1.3rem;
   margin: 5px;
   padding:15px 5px ;
-  border-top: solid 1px black;
+  border-top: solid 1px #3d405b;
 }
 
 @media (min-width:768px) {
@@ -102,13 +98,15 @@ legend{
     flex-direction: column;
     flex-wrap:wrap;
     border-radius: 10px 10px 10px 10px;
+    box-sizing:border-box;
+    width: 65%;
   }
   .inputfield{
-    flex-direction:row;
+    /* flex-direction:row; */
     width: auto;
   }
-    .signup{
-      box-sizing:border-box;
-    }
+  label{
+    width: 200px;
+  }
 
 }
