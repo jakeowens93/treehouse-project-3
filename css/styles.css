@@ -1,7 +1,7 @@
 
 *{
   font-family: 'Merriweather', serif;
-  /* box-sizing: border-box; */
+
 }
 html{
   color: #3d405b;
@@ -19,6 +19,7 @@ p {
   padding:15px 10px;
   margin:-8px -10px 0 -8px;
 }
+
 .container{
   background-color:#E8DAB2;
   border-radius: 10px 10px 0 0;
@@ -26,7 +27,10 @@ p {
   display: flex;
   flex-direction: column;
 }
-
+label{
+  padding: 10px 0;
+  margin: 10px 0;
+}
 .signup{
   padding:10px;
   margin: 0 5px;
@@ -41,6 +45,7 @@ p {
   box-sizing: border-box;
   resize: vertical;
 }
+
 .contact li{
   margin: 10px;
 }
@@ -78,10 +83,32 @@ ul{
 }
 fieldset{
   border:none;
+  box-sizing: border-box;
 }
 legend{
   font-size: 1.3rem;
   margin: 5px;
-  padding:5px;
+  padding:15px 5px ;
   border-top: solid 1px black;
+}
+
+@media (min-width:768px) {
+  .container .form .inputfield{
+    display: flex;
+    align-items: center;
+  }
+  .container{
+    margin:auto;
+    flex-direction: column;
+    flex-wrap:wrap;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .inputfield{
+    flex-direction:row;
+    width: auto;
+  }
+    .signup{
+      box-sizing:border-box;
+    }
+
 }
