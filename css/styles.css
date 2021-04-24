@@ -4,16 +4,16 @@
   /* box-sizing: border-box; */
 }
 html{
-  color: #283F3B;
+  color: #3d405b;
 }
 body{
-  background:#283F3B;
+  background:#3d405b;
 }
 p {
   padding-bottom: 4px;
 }
 .header{
-  background:#283F3B;
+  background:#3d405b;
   color: #E8DAB2;
   text-align: center;
   padding:15px 10px;
@@ -26,6 +26,7 @@ p {
   display: flex;
   flex-direction: column;
 }
+
 .signup{
   padding:10px;
   margin: 0 5px;
@@ -46,6 +47,9 @@ p {
 .newsletter{
   padding: 12px;
 }
+.newsletter ul{
+    line-height: 200%;
+}
 ul{
   list-style-type: none;
   padding-left: 0;
@@ -57,10 +61,10 @@ ul{
   padding-bottom: 30px;
 }
 .btn{
-  width: 75vw;
+  width: 90vw;
   padding:20px 50px;
-  background-color: #DD6E42;
-  color: #E8DAB2;
+  background-color: #e07a5f;
+  color: #f4f1de;
   border: none;
   border-radius: 5px;
   font-size: 1.5rem;
@@ -70,7 +74,7 @@ ul{
   font-weight:bold;
 }
 .copyright{
-
+  font-style:italic;
 }
 fieldset{
   border:none;
