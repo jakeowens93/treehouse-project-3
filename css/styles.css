@@ -8,21 +8,21 @@ html{
   box-sizing: border-box;
 }
 body{
-  background:#3d405b;
+  background:#555B6E;
 }
 p {
   padding-bottom: 4px;
 }
 .header{
-  background:#3d405b;
-  color: #E8DAB2;
+  background:#555B6E;
+  color: #FAF9F9;
   text-align: center;
   padding:15px 10px;
   margin:-8px -10px 0 -8px;
 }
 
 .container{
-  background-color:#E8DAB2;
+  background-color:#D0DDD1;
   border-radius: 10px 10px 0 0;
   margin: 0 -10px -10px;
   display: flex;
@@ -42,10 +42,14 @@ label{
 .contact input, textarea, select {
   width: 100%;
   padding: 12px;
+  background-color:#FAF9F9;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
+}
+input:focus, textarea:focus{
+  background-color: #F5D5CC;
 }
 .newsletter{
   padding: 12px;
@@ -77,6 +81,9 @@ label{
 .btn:hover{
   font-weight:bold;
 }
+.btn:focus{
+  background-color:#e07a5f;
+}
 fieldset{
   border:none;
   box-sizing: border-box;
@@ -102,11 +109,14 @@ legend{
     width: 65%;
   }
   .inputfield{
-    /* flex-direction:row; */
+    align-items:flex-start;
     width: auto;
   }
   label{
-    width: 200px;
+    width: 160px;
   }
-
+input#zip{
+  width:130px;
+  margin-left: -35px;
+}
 }
