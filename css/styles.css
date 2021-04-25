@@ -24,7 +24,7 @@ p {
 .container{
   background-color:#D0DDD1;
   border-radius: 10px 10px 0 0;
-  margin: 0 -10px -10px;
+  /* margin: 0 -10px -10px; */
   display: flex;
   flex-direction: column;
   width:100%;
@@ -51,9 +51,11 @@ label{
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
+  transition: all 0.2s ease-in;
 }
 input:focus, textarea:focus{
-  background-color: #F5D5CC;
+  border-bottom: 10px solid #DD7255 !important;
+  border-style: inset;
 }
 .newsletter{
   padding: 12px;
@@ -73,7 +75,7 @@ input:focus, textarea:focus{
   padding-bottom: 30px;
 }
 .btn{
-  width: 90%;
+  width: 95%;
   padding:20px 50px;
   background-color: #e07a5f;
   color: #f4f1de;
