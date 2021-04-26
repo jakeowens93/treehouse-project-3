@@ -52,6 +52,16 @@ label{
   resize: vertical;
   transition: all 0.2s ease-in;
 }
+.contact input,
+.contact select {
+  flex-basis: 70%;
+}
+.contact label{
+  flex-basis: 30%;
+}
+#zip{
+  width: 50%;
+}
 input:focus, textarea:focus{
   border-bottom: 10px solid #DD7255 !important;
   border-style: inset;
