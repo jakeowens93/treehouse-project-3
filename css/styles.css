@@ -116,11 +116,18 @@ legend{
     align-items:flex-start;
     width: auto;
   }
-  label{
-    width: 160px;
+  .contact{
+    justify-content: flex-start;
   }
-input#zip{
-  width:130px;
-  margin-left: -35px;
+  label{
+    width: 30%;
+  }
+  .zip{
+    display:flex;
+    justify-content: flex-start;
+  }
+.zip input{
+  flex-basis: 25%;
 }
+
 }
